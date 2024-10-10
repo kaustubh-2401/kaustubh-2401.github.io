@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    background-image: url(images./niagra\ falls\ \ vackground\ of\ form.jpg);
+    background-size: cover;
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header Styling */
+.main-header {
+    /* position: absolute; */
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0); /* Semi-transparent background */
+    z-index: 10;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.logo span {
+    color: #ff6347; /* Logo Highlight Color */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6347; /* Change color on hover */
+}
+.cta {
+    border: 2px solid #ff6347;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+.cta:hover {
+    color: rgb(244, 240, 237);
+    background-color:rgb(82, 41, 34) ;
+    
+}
+.contact-container {
+    
+    width: 60%;
+    margin: 70px auto;
+    background: rgba(8, 0, 0,0.6);
+    padding: 35px;
+    border-radius: 10px;
+    color: #fff;
+}
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+   
+}
+.contact-form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.contact-form input{
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.contact-form textarea {
+    height: 150px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.contact-form button {
+    background: #00bfa5;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.contact-form button:hover {
+    background: #007c73;
+}
+
+/* Back Button */
+.back-btn {
+    display: block;
+    margin:10px auto;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.back-btn:hover {
+    background: #555;
+}
+
+
